@@ -35,6 +35,20 @@ header {
     font-weight: 400;
     line-height: 94px;
 }
+.button_shop{
+    margin-top: 24px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 26px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.00);
+    width: 200px;
+    height: 52px;
+}
 
 .imagen_principal{
     position:absolute;
