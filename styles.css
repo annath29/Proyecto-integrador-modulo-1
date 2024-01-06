@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter&family=Roboto&display=swap");
+*{ 
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond";
+  background-color: #1a1a1a; /* O el color de fondo que prefieras */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  /* padding: 1em 3em; */
+  background-color: #093931; /* Ajusta este color al de tu imagen */
+  font-family: Manrope;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #F2C66D;
+  font-weight: bold;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
+  font-family: Manrope;
+  font-size: 10px;
+  font-weight: 40px;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: auto;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 30px;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: relative;
+  padding: 10px;
+
+  font-family: Cormorant Garamond;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #F2C66D;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background-color:  #F2C66D;
+  ;
+}
+
+.user-controls {
+  display: flex;
+  background-color: white;
+}
+
+.user-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  margin-left: 1em;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; /* Centra los íconos verticalmente */
+  justify-content: space-around; /* Espacia los íconos uniformemente */
+  color: white;
+}
+
+.icon {
+  width: 32px; 
+  height: auto; /* Mantiene la proporción de aspecto del ícono */
+  filter: invert(99%) sepia(3%) saturate(2%) hue-rotate(96deg) brightness(106%)
+    contrast(97%);
+  padding: 35px; /* Espaciado alrededor de los íconos */
+  margin: 10x; /* Ajusta la separación entre íconos */
+}
+
+.icon:hover {
+  opacity: 0.7; /* Efecto al pasar el mouse para indicar interactividad */
+}
