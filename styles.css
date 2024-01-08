@@ -252,3 +252,37 @@ height: 28px;
   border-width: 0 0px 0px 0; /* Grosor del borde para formar la flecha */
   padding: 3px; /* Tamaño de la flecha */
 }
+
+@media (max-width: 768px) {
+  .footer-container--top,
+  .footer-container--medio,
+  .footer-media {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-figure--img {
+    width: 100%; /* O un porcentaje que se ajuste bien en pantalla pequeña */
+    height: auto;
+    margin: 0 auto; /* Centrar la imagen si es necesario */
+  }
+  .article-footer--texto, .footer-figure--figcaption {
+    text-align: center; /* Centrar el texto para una mejor lectura */
+    padding: 0 10px; /*  algo de espacio a los lados */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-menu-right,
+  .footer-menu-left,
+  .footer-article--suscribe {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-button, .nav-link {
+    padding: 10px; /* Aumenta el padding para hacer el toque más fácil */
+  }
+}
