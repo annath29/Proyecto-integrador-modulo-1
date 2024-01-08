@@ -20,6 +20,9 @@ body {
   /* padding: 1em 3em; */
   background-color: #093931; /* Ajusta este color al de tu imagen */
   font-family: Manrope;
+  width: 100vw;
+  height: 62px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -32,8 +35,8 @@ body {
   line-height: 46px;
   letter-spacing: 0em;
   text-align: left;
+  margin-left: 32px;
 }
-
 .navbar {
   display: flex;
   justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
@@ -96,6 +99,7 @@ body {
   align-items: center; /* Centra los íconos verticalmente */
   justify-content: space-around; /* Espacia los íconos uniformemente */
   color: white;
+  margin-right: 132px;
 }
 
 .icon {
