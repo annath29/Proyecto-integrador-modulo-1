@@ -9,8 +9,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px;
-  /* padding: 1em 3em; */
   background-color: #093931; /* Ajusta este color al de tu imagen */
   width: 100vw;
   height: 3.875rem;
@@ -70,18 +68,6 @@
   left: 0;
   background-color:  #F2C66D;
   ;
-}
-
-.user-controls {
-  display: flex;
-  background-color: white;
-}
-
-.user-link {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.2em;
-  margin-left: 1em;
 }
 
 .icon-container {
@@ -148,7 +134,7 @@
   }
 }
 
-.seccion_principal{
+.container_seccion_principal{
     background: #093931;
     background-image: url(./assets/fondoVectores.png);
     width: 100vw;
@@ -158,13 +144,13 @@
     justify-content: space-between;
 }
 
-.texto_seccion_principal {
-    margin: 11.12rem 4.5rem 10.5rem 8.25rem;
-    width: 40%;
-    height: 17.625rem;
+.seccion_principal{
+  width: 50%;
+  height: 33.9375rem;
+  margin:4.81rem 18.25rem 8.69rem 4.5rem;
 }
-
-.texto_seccion_principal >p{
+.seccion_principal >p{
+    padding-top: 5.81rem;
     width: 33.5625rem;
     color: #F5D38E;
     font-family: Cormorant Garamond;
@@ -189,12 +175,6 @@
     background: rgba(0, 0, 0, 0.00);
     width: 12.5rem;
     height: 3.25rem;
-}
-
-.seccion_principal_imagen{
-    width: 40%;
-    height: 33.9375rem;
-    margin:4.81rem 18.25rem 8.69rem 4.5rem;
 }
 
 .imagen_principal{
