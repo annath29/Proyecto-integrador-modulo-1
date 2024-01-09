@@ -426,9 +426,11 @@ body{
   height: 67.625rem;
   background: #FFF;
   padding: 3rem 5.06rem;
+  display: flex;
+  justify-content:space-between;
 }
 
-.conteiner_collections>h1{
+/* .conteiner_collections>h1{
   margin:0px 37.87rem 2.87rem 36.19rem;
   color: #0D554A;
   text-align: center;
@@ -437,11 +439,7 @@ body{
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
-}
-.conteiner1{
-  display: flex;
-  justify-content:space-between;
-}
+} */
 
 .collections1{
   width: 30%;
@@ -459,6 +457,7 @@ body{
   justify-content: center;
   background: url(./assets/Colecciones/coleccion1.png), lightgray 0px -90px / 100% 150% no-repeat;
 }
+
 .collections1 >h3{
   /* margin:18rem 4.63rem 1.5rem 463rem; */
   color: #FFF;
@@ -468,20 +467,4 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-}
-.collections2{
-  width: 30%;
-  height: 22.5rem;
-  margin: 0rem 3rem ;
-  flex-shrink: 0;
-  color: black;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150% ;
-  display: flex;
-  justify-content: center;
-  background: url(./assets/Colecciones/Image\ 1.png), lightgray 0px -90px / 100% 150% no-repeat;
 }
