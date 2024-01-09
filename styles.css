@@ -5,9 +5,9 @@
   padding: 0;
   text-decoration: none;
 }
-body{
+/* body{
   width: 90rem;
-}
+} */
 .header {
   display: flex;
   justify-content: space-between;
