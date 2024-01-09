@@ -253,36 +253,89 @@ height: 28px;
   padding: 3px; /* Tamaño de la flecha */
 }
 
+* Reglas generales de responsividad para dispositivos pequeños */
 @media (max-width: 768px) {
-  .footer-container--top,
-  .footer-container--medio,
-  .footer-media {
+  .footer-container--top {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-}
 
-@media (max-width: 768px) {
+  .footer-container--article,
+  .footer-figure {
+    width: 100%;
+    padding: 0 15px;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+
   .footer-figure--img {
-    width: 100%; /* O un porcentaje que se ajuste bien en pantalla pequeña */
-    height: auto;
-    margin: 0 auto; /* Centrar la imagen si es necesario */
+    width: 40%; /* Ajustar según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin: 0 auto; /* Centra la imagen */
   }
-  .article-footer--texto, .footer-figure--figcaption {
-    text-align: center; /* Centrar el texto para una mejor lectura */
-    padding: 0 10px; /*  algo de espacio a los lados */
-  }
-}
 
-@media (max-width: 768px) {
+  .footer--caption---button {
+    justify-content: space-around;
+    margin-left: 0; /* Alinea los botones en el centro */
+  }
+
+  .footer-container--medio {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .footer-menu-right,
-  .footer-menu-left,
-  .footer-article--suscribe {
-    display: none;
+  .footer-menu-left {
+    text-align: center;
+    margin-bottom: 20px;
+    width: auto;
+  }
+
+  .footer-input,
+  .footer-button {
+    width: auto;
+    max-width: 90%;
+    margin-top: 10px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  .footer-container--top, .footer-container--medio, .footer-media, .footer-bottom {
+    max-width: 100%; /* Establece el ancho máximo al 100% del ancho de su contenedor padre */
+    box-sizing: border-box; /* Incluye padding y border en el ancho del elemento */
   }
 }
 
-@media (max-width: 768px) {
-  .footer-button, .nav-link {
-    padding: 10px; /* Aumenta el padding para hacer el toque más fácil */
+/* Reglas específicas para pantallas muy pequeñas, como teléfonos en orientación vertical */
+@media (max-width: 480px) {
+  .article-footer--title {
+    font-size: 24px; /* Tamaño de fuente más pequeño para títulos */
   }
+
+  .footer-figure--figcaption,
+  .figcaption--h1,
+  .figcaption--p {
+    font-size: 10px; /* Tamaño de fuente más pequeño para textos */
+  }
+
+  .footer--caption---button button {
+    padding: 5px; /* Espaciado más pequeño para botones */
+  }
+  
+  /* .footer-title--suscribe {
+    height: 30px;
+  } */
+  
+  .footer-title--suscribe {
+    font-family: Cormorant Garamond;
+    margin-right: 100%
+  }
+  
 }
