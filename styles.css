@@ -5,12 +5,15 @@
   padding: 0;
   text-decoration: none;
 }
+body{
+  width: 90rem;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #093931; /* Ajusta este color al de tu imagen */
-  width: 100vw;
+  width: 100%;
   height: 3.875rem;
   flex-shrink: 0;
 }
@@ -137,7 +140,7 @@
 .container_seccion_principal{
     background: #093931;
     background-image: url(./assets/fondoVectores.png);
-    width: 100vw;
+    width: 100%;
     height: 51.3125rem;
     flex-shrink: 0;
     display: flex;
@@ -147,7 +150,7 @@
 .seccion_principal{
   width: 50%;
   height: 33.9375rem;
-  margin:4.81rem 18.25rem 8.69rem 4.5rem;
+  margin:4.81rem 9.1rem 8.69rem 4.5rem;
 }
 .seccion_principal >p{
     padding-top: 5.81rem;
@@ -232,7 +235,7 @@
 .conteiner_servicios{
     margin-top: 1.5rem;
     background: #FFF;
-    width: 100%vmax;
+    width: 100%;
     height: 14.5rem;
     display: flex;
     justify-content:space-between;
@@ -292,6 +295,130 @@
         line-height: 110% ;
         margin-bottom: 1rem;
     }
+}
+
+.conteiner_productos{
+  width: 100%;
+  height: 31.625rem;
+  padding: 3rem 0rem;
+  background: #FFF;
+  display: flex;
+  justify-content:space-between;
+}
+.productos_descripción{
+  width: 15%;
+  height:31.625rem;
+  margin-left: 8.25rem;
+}
+.productos_descripción>h2{
+  text-align: left;
+  margin:3.38rem 3rem 0.75rem 0rem;
+  color: #0D554A;
+  font-family: Cormorant Garamond;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140% ;
+}
+.productos_descripción >p{
+  text-align: left;
+  margin:0rem 3rem 1.5rem 0rem;
+  color: #9095A0;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.productos_descripción >button{
+  margin:0rem 7rem 10.87rem 0rem;
+  width: 12.5rem;
+  height: 3.5rem;
+  /* padding: 0.75rem 3.6875rem; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.625rem;
+  border: 1px solid #0D554A;
+  background: rgba(0, 0, 0, 0.00);
+  color: #0D554A;
+  font-family: Manrope;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+}
+
+.cards{
+  width: 20%;
+  height: 25.625rem;
+  margin:3rem 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+}
+
+.cards > img{
+  width: 100%;
+  height: 20rem;
+}
+
+.cards > h3 {
+  color: #171A1F;
+  font-family: Cormorant Garamond;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.cards >p{
+  color: #171A1F;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.card_oculta{
+  width: 15%;
+  height: 25.625rem;
+  margin:3rem 0rem 3rem 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+}
+.img_oculta{
+    width: 25%; 
+    height: 20rem;
+    margin-left: 0;
+    overflow: hidden;   
+}
+
+.card_oculta > h3 {
+  width: 25%;
+  height: 2.25rem;
+  overflow: hidden;
+  color: #171A1F;
+  font-family: Cormorant Garamond;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.card_oculta >p{
+  width: 25%;
+  overflow: hidden;
+  color: #171A1F;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
 }
 
 .section-productos {
