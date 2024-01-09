@@ -224,13 +224,11 @@ body{
     right: 5.88rem;
 }
 
-
 @media screen and (max-width: 768px) {
-    main >div{
+    .seccion_principal{
        flex-direction: column;
     }
 }
-
 
 .conteiner_servicios{
     margin-top: 1.5rem;
@@ -305,12 +303,12 @@ body{
   display: flex;
   justify-content:space-between;
 }
-.productos_descripción{
+.productos_descripcion{
   width: 15%;
   height:31.625rem;
   margin-left: 8.25rem;
 }
-.productos_descripción>h2{
+.productos_descripcion>h2{
   text-align: left;
   margin:3.38rem 3rem 0.75rem 0rem;
   color: #0D554A;
@@ -320,7 +318,7 @@ body{
   font-weight: 600;
   line-height: 140% ;
 }
-.productos_descripción >p{
+.productos_descripcion >p{
   text-align: left;
   margin:0rem 3rem 1.5rem 0rem;
   color: #9095A0;
@@ -328,12 +326,12 @@ body{
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 162.5%;
+  line-height: 1.75rem;
 }
 
-.productos_descripción >button{
-  margin:0rem 7rem 10.87rem 0rem;
-  width: 12.5rem;
+.productos_descripcion > button{
+  margin:0rem 7rem 10.88rem 0rem;
+  width:70%;
   height: 3.5rem;
   /* padding: 0.75rem 3.6875rem; */
   justify-content: center;
@@ -389,7 +387,7 @@ body{
   flex-shrink: 0;
   border-radius: 0.5rem;
   background: #FFF;
-  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+  overflow: hidden; 
 }
 .img_oculta{
     width: 25%; 
@@ -421,115 +419,128 @@ body{
   line-height: 162.5%;
 }
 
-.section-productos {
-  text-align: center;
-  background-color: #fff;
-  padding: 20px;
-  font-family: Cormorant Garamond;
-  width: 1440px;
-  height: 554px;
-  top: 2713px;
-}
-
-.section-productos {
+.conteiner_joyas{
+  width: 100%;
+  height: 31.625rem;
+  padding: 3rem 0rem;
+  background: #FFF;
   display: flex;
-  align-items: center;
-  padding: 20px;
+  justify-content:space-between;
 }
-
-/* .section-Ourselection {
-} */
-
-.section--title {
-  text-align: center;
-  color: #093931;
-  background-color: #fff;
-  padding: 30px;
+.joyas_descripcion{
+  width: 20%;
+  height:31.625rem;
+  margin-left: 8.25rem;
+}
+.joyas_descripcion>h2{
+  text-align: left;
+  margin:3.38rem 3rem 0.75rem 0rem;
+  color: #0D554A;
   font-family: Cormorant Garamond;
-  width: 264px;
-  top: 78px;
-  left: 132px;
-  font-size: 40px;
+  font-size: 2.5rem;
+  font-style: normal;
   font-weight: 600;
-  line-height: 56px;
-  letter-spacing: 0em;
+  line-height: 140% ;
+}
+.joyas_descripcion >p{
   text-align: left;
-}
-
-.section-parrafo {
-  color: #424955;
-  margin-bottom: 1em;
-  font-family: Cormorant Garamond;
+  margin:0rem 3rem 1.5rem 0rem;
+  color: #9095A0;
   font-family: Manrope;
-  width: 264px;
-  height: 78px;
-  top: 202px;
-  /* left: 132px; */
-  /* margin-right: 50px; */
-  font-size: 16px;
-  font-weight: 500px;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: right;
-  justify-content: flex-start;
-}
-
-.section-button--shopnow {
-  background-color: #fff;
-  color: #093931;
-  width: 200px;
-  height: 52px;
-  top: 304px;
-  /* left: 132px; */
-  margin-left: -30px;
-  padding: 12px, 59px, 12px, 59px;
-  border-radius: 26px;
-  border: 1px solid;
-}
-
-.section-button--shopnow {
-  background-color: #fff; /* o el color de fondo al pasar el ratón */
-  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
-  transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
-  outline: none; /* Elimina el contorno al hacer clic */
-}
-
-.section-button--shopnow:hover {
-  background-color: #093931; /* Fondo verde al pasar el cursor */
-  color: #fff; /* Texto blanco al pasar el cursor */
-}
-
-.section-carrusel--productos {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  color: #171a1f;
-  font-family: Manrope;
-  font-size: 16px;
+  font-size: 1rem;
+  font-style: normal;
   font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
+  line-height: 1.75rem;
 }
 
-.section-carrusel--productos {
+.joyas_descripcion > button{
+  margin:0rem 7rem 10.88rem 0rem;
+  width:70%;
+  height: 3.5rem;
+  /* padding: 0.75rem 3.6875rem; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.625rem;
+  border: 1px solid #0D554A;
+  background: rgba(0, 0, 0, 0.00);
+  color: #0D554A;
+  font-family: Manrope;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+}
+
+.joyas{
+  width: 20%;
+  height: 25.625rem;
+  margin:3rem 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FFF;
+  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+}
+
+.joyas > img{
   width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ddd; /* o el color deseado */
-  padding-bottom: 10px;
+  height: 20rem;
 }
 
-.carrusel-primerajoya--caption {
-  color: #171a1f;
-  font-size: 1em;
-  margin: 0.5em 0;
+.joyas > h3 {
+  color: #171A1F;
+  font-family: Cormorant Garamond;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
 }
 
-.carrusel-primerajoya,
-.carrusel-segundajoya,
-.carrusel-tercerajoya,
-.carrusel-cuartajoya {
-  width: 100%;
+.joyas >p{
+  color: #171A1F;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+}
+
+.joya_oculta{
+  width: 15%;
+  height: 25.625rem;
+  margin:3rem 0rem 3rem 1.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  background: #FFF;
+  overflow: hidden; 
+}
+.joya_oculta >img{
+    width: 25%; 
+    height: 20rem;
+    margin-left: 0;
+    overflow: hidden;   
+}
+
+.joya_oculta > h3 {
+  width: 25%;
+  height: 2.25rem;
+  overflow: hidden;
+  color: #171A1F;
+  font-family: Cormorant Garamond;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.joya_oculta >p{
+  width: 25%;
+  overflow: hidden;
+  color: #171A1F;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
 }
 
 .our-story {
