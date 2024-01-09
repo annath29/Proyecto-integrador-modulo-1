@@ -293,3 +293,194 @@
         margin-bottom: 1rem;
     }
 }
+
+.section-productos {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  font-family: Cormorant Garamond;
+  width: 1440px;
+  height: 554px;
+  top: 2713px;
+}
+
+.section-productos {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* .section-Ourselection {
+} */
+
+.section--title {
+  text-align: center;
+  color: #093931;
+  background-color: #fff;
+  padding: 30px;
+  font-family: Cormorant Garamond;
+  width: 264px;
+  top: 78px;
+  left: 132px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section-parrafo {
+  color: #424955;
+  margin-bottom: 1em;
+  font-family: Cormorant Garamond;
+  font-family: Manrope;
+  width: 264px;
+  height: 78px;
+  top: 202px;
+  /* left: 132px; */
+  /* margin-right: 50px; */
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: right;
+  justify-content: flex-start;
+}
+
+.section-button--shopnow {
+  background-color: #fff;
+  color: #093931;
+  width: 200px;
+  height: 52px;
+  top: 304px;
+  /* left: 132px; */
+  margin-left: -30px;
+  padding: 12px, 59px, 12px, 59px;
+  border-radius: 26px;
+  border: 1px solid;
+}
+
+.section-button--shopnow {
+  background-color: #fff; /* o el color de fondo al pasar el ratón */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
+  outline: none; /* Elimina el contorno al hacer clic */
+}
+
+.section-button--shopnow:hover {
+  background-color: #093931; /* Fondo verde al pasar el cursor */
+  color: #fff; /* Texto blanco al pasar el cursor */
+}
+
+.section-carrusel--productos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #171a1f;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.section-carrusel--productos {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd; /* o el color deseado */
+  padding-bottom: 10px;
+}
+
+.carrusel-primerajoya--caption {
+  color: #171a1f;
+  font-size: 1em;
+  margin: 0.5em 0;
+}
+
+.carrusel-primerajoya,
+.carrusel-segundajoya,
+.carrusel-tercerajoya,
+.carrusel-cuartajoya {
+  width: 100%;
+}
+
+.our-story {
+  position: relative;
+  max-width: 100%; /* Asegura que la sección no se desborde y ocupe el ancho disponible */
+  margin: auto; /* Centra la sección */
+  text-align: center; /* Centra el texto */
+  padding: 20px; /* Espacio alrededor del contenido */
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.our-story-title {
+  font-size: 24px; /* Ajusta el tamaño según sea necesario */
+  color: #093931; /* El color deseado para el título */
+  margin-bottom: 20px; /* Espacio debajo del título */
+  text-align: center;
+  font-family: Cormorant Garamond;
+}
+
+.our-story-content {
+  position: relative;
+  display: inline-block; /* Permite que el contenido se ajuste alrededor de la imagen */
+  display: block; /* Cambiar a block para que ocupe el ancho completo */
+  max-width: 100%; /* Asegurar que el contenedor no se desborde */
+  overflow: hidden; /* Ocultar cualquier contenido que se desborde */
+}
+
+.our-story-image {
+  max-width: 100%; /* Asegura que la imagen sea responsive y no se desborde */
+  height: auto; /* Mantiene la relación de aspecto */
+  border-radius: 8px; /* Opcional: para esquinas redondeadas */
+}
+
+
+.play-button {
+  background-color: #fff; /*Fondo blanco para el botón  */
+  border-radius: 100%; /* Hace el botón circular */
+  border: none;
+  padding: 0; /* Esto quita cualquier espacio interno si no es necesario */
+  padding: 0px; 
+  display: flex; 
+  align-items: center; /* Centra verticalmente el icono en el botón */
+  justify-content: center; /* Centra horizontalmente el icono en el botón */
+  box-shadow: 0 4px 8px #ddd(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+  position: absolute; 
+  top: 50%; /* Centrado vertical respecto a su contenedor */
+  left: 50%; /* Centrado horizontal respecto a su contenedor */
+  transform: translate(-50%, -50%);
+  width: 64px; /* Tamaño del botón */
+  height: 64px; /* Tamaño del botón */
+
+}
+
+.play-button img {
+  width: 100%; /* Asegura que la imagen ocupe todo el botón */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Media queries para ajustar los estilos en pantallas más pequeñas */
+@media (max-width: 780px) {
+  .our-story-title {
+    font-size: 20px; /* Tamaño más pequeño para el título */
+  }
+
+  .play-button {
+    width: 40px; /* Botón más pequeño */
+    height: 40px; /* Botón más pequeño */
+  }
+}
+
+@media (max-width: 480px) {
+  .our-story-title {
+    font-size: 18px; /* Tamaño aún más pequeño para el título */
+  }
+
+  .play-button {
+    width: 30px; /* Botón aún más pequeño */
+    height: 30px; /* Botón aún más pequeño */
+  }
+}
