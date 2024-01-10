@@ -59,9 +59,9 @@
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 0.125rem;
   display: block;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   right: 0;
   background: #f2c66d;
   transition: width 0.3s;
@@ -134,7 +134,7 @@
   font-weight: 400;
   line-height: 155.556%;
   border-radius: 1.625rem;
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
   background: rgba(0, 0, 0, 0);
   width: 12.5rem;
   height: 3.25rem;
@@ -150,7 +150,7 @@
   border-radius: 0.5rem;
   position: absolute;
   background: url(./assets/seccionppalimg1.png),
-    lightgray 0px -33px / 100% 112.339% no-repeat;
+    lightgray 0rem  -2.0625rem / 100% 112.339% no-repeat;
   /* width: 25.4375rem; */
   width: 28%;
   height: 33.9375rem;
@@ -168,8 +168,8 @@
   flex-shrink: 0;
   border-radius: 7.5625rem 7.5625rem 0rem 0rem;
   /* background: url(./assets/Image_video.png), lightgray 0px -19px / 100% 112.15% no-repeat; */
-  box-shadow: 0px 8px 17px 0px rgba(23, 26, 31, 0.15),
-    0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+  box-shadow: 0rem 0.5rem 1.0625rem 0rem rgba(23, 26, 31, 0.15),
+    0rem 0rem 0.125rem 0rem rgba(23, 26, 31, 0.12);
   background-image: url(./assets/Image_video.png);
 }
 
@@ -182,7 +182,7 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: 50%;
-  border: 1px solid #effdfa;
+  border:  0.0625rem solid #effdfa;
   background: rgba(0, 0, 0, 0);
   position: relative;
   top: 8.44rem;
@@ -206,12 +206,12 @@
 @media screen and (max-width: 952px) {
   .nav-link {
     font-size: 0.8rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     margin: 0rem 1.5rem;
   }
   .logo {
     font-size: 1.5em;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-left: 5rem;
     margin-right: 2rem;
   }
@@ -320,7 +320,7 @@
     font-size: 0.75rem;
     line-height: 110%;
     border-radius: 1.625rem;
-    border: 1px solid #fff;
+    border: 0.0625rem solid #fff;
     background: rgba(0, 0, 0, 0);
     width: 40%;
     height: 10%;
