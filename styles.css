@@ -222,16 +222,16 @@ height: 1.75rem;
 
 .footer--caption---button{
   display: flex;
-  margin-left: 230px;
+  margin-left: 14.375rem;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .footer-button--caption---right, .footer-button--caption---left{
   /* border-width: 0 5px 5px 0; */
   border-color: transparent transparent white white;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   background-color: transparent;
   border:  solid white; /* Añade un borde blanco */
   color: white;
@@ -250,7 +250,7 @@ height: 1.75rem;
   border-color: transparent transparent white white;
   border: solid white;
   border-width: 0 0px 0px 0; /* Grosor del borde para formar la flecha */
-  padding: 3px; /* Tamaño de la flecha */
+  padding: 0.1875rem; /* Tamaño de la flecha */
 }
 
 * Reglas generales de responsividad para dispositivos pequeños */
@@ -264,11 +264,11 @@ height: 1.75rem;
   .footer-container--article,
   .footer-figure {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 0.9375rem;
     left: 0;
     top: 0;
     right: 0;
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   .footer-figure--img {
@@ -290,7 +290,7 @@ height: 1.75rem;
   .footer-menu-right,
   .footer-menu-left {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     width: auto;
   }
 
@@ -304,7 +304,7 @@ height: 1.75rem;
   .footer-icons {
     justify-content: center;
     left: 0;
-    margin-top: 20px;
+    margin-top: 0.625rem;
   }
 
   .footer-container--top, .footer-container--medio, .footer-media, .footer-bottom {
@@ -316,17 +316,17 @@ height: 1.75rem;
 /* Reglas específicas para pantallas muy pequeñas, como teléfonos en orientación vertical */
 @media (max-width: 480px) {
   .article-footer--title {
-    font-size: 24px; /* Tamaño de fuente más pequeño para títulos */
+    font-size: 1.5rem; /* Tamaño de fuente más pequeño para títulos */
   }
 
   .footer-figure--figcaption,
   .figcaption--h1,
   .figcaption--p {
-    font-size: 10px; /* Tamaño de fuente más pequeño para textos */
+    font-size: 0.625rem; /* Tamaño de fuente más pequeño para textos */
   }
 
   .footer--caption---button button {
-    padding: 5px; /* Espaciado más pequeño para botones */
+    padding: 0.3125rem; /* Espaciado más pequeño para botones */
   }
   
   /* .footer-title--suscribe {
