@@ -45,8 +45,8 @@ body{
   text-decoration: none;
   color: #fff;
   font-size: 0.9rem;
-  font-weight: 30px;
-  line-height: 30px;
+  font-weight: 1.875rem;
+  line-height: 1.875rem;
   letter-spacing: 0em;
   text-align: left;
   position: relative;
@@ -58,9 +58,9 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 0.125rem;
   display: block;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   right: 0;
   background: #F2C66D;
   transition: width 0.3s;
@@ -96,12 +96,12 @@ body{
 @media screen and (max-width:952px){
   .nav-link {
     font-size: 0.8rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     margin: 0rem 1.5rem;
   }
   .logo {
     font-size: 1.5em;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-left: 5rem;
     margin-right: 2rem;
   }
@@ -118,12 +118,12 @@ body{
 @media screen and (max-width:730px){
   .nav-link {
     font-size: 0.75rem;
-    line-height: 18px;
+    line-height: 1.125rem;
     margin: 0rem 1rem;
   }
   .logo {
     font-size: 1.3em;
-    line-height: 35px;
+    line-height: 2.1875rem;
     margin-left: 3rem;
     margin-right: 2rem;
   }
@@ -603,22 +603,22 @@ body{
 /* Media queries para ajustar los estilos en pantallas más pequeñas */
 @media (max-width: 780px) {
   .our-story-title {
-    font-size: 20px; /* Tamaño más pequeño para el título */
+    font-size: 1.25rem; /* Tamaño más pequeño para el título */
   }
 
   .play-button {
-    width: 40px; /* Botón más pequeño */
-    height: 40px; /* Botón más pequeño */
+    width: 2.5rem; /* Botón más pequeño */
+    height: 2.5rem; /* Botón más pequeño */
   }
 }
 
 @media (max-width: 480px) {
   .our-story-title {
-    font-size: 18px; /* Tamaño aún más pequeño para el título */
+    font-size: 1.125rem; /* Tamaño aún más pequeño para el título */
   }
 
   .play-button {
-    width: 30px; /* Botón aún más pequeño */
-    height: 30px; /* Botón aún más pequeño */
+    width: 1.875rem; /* Botón aún más pequeño */
+    height: 1.875rem; /* Botón aún más pequeño */
   }
 }
