@@ -328,12 +328,22 @@
   .imagen_principal {
     margin: 1rem 20% 1rem 15%;
     width: 60%;
-    height: 50%;
+    height: 100%;
   }
   .img_video {
-    margin: 1%;
-    width: 13rem;
-    height: 18rem;
+    width: 40%;
+    height: 60%;
+    top: 3.5rem;
+    left: 16rem;
+  }
+  .boton_play {
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.6rem;
+    top: 6.5rem;
+    left: 5rem;
+    right: 0rem;
   }
 
 }
