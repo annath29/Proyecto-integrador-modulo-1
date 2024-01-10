@@ -245,6 +245,27 @@
     height: 1rem;
     margin: 0rem 1rem;
   }
+  /* ----------------- */
+  .container_seccion_principal {
+    gap: 1rem;
+  }
+  .seccion_principal_texto > p {
+    padding-top: 3rem;
+    width: 25rem;
+    font-size: 4rem;
+    line-height: 110%;
+  }
+  .imagen_principal {
+    width: 40%;
+  }
+  .img_video {
+    top: 6rem;
+    right: 0rem;
+    bottom: 6rem;
+    left: 7rem;
+    width: 14rem;
+    height: 18rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
