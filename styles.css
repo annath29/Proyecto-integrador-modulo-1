@@ -45,8 +45,8 @@ body{
   text-decoration: none;
   color: #fff;
   font-size: 0.9rem;
-  font-weight: 30px;
-  line-height: 30px;
+  font-weight: 1.875rem;
+  line-height: 1.875rem;
   letter-spacing: 0em;
   text-align: left;
   position: relative;
@@ -58,9 +58,9 @@ body{
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 0.125rem;
   display: block;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   right: 0;
   background: #F2C66D;
   transition: width 0.3s;
@@ -96,17 +96,17 @@ body{
 @media screen and (max-width:952px){
   .nav-link {
     font-size: 0.8rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     margin: 0rem 1.5rem;
   }
   .logo {
     font-size: 1.5em;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-left: 5rem;
     margin-right: 2rem;
   }
   .icon-container {
-    margin-right: 5rem;
+    margin-right: 0.3125rem;
   }
   .icon {
     width: 1.2rem; 
@@ -118,12 +118,12 @@ body{
 @media screen and (max-width:730px){
   .nav-link {
     font-size: 0.75rem;
-    line-height: 18px;
+    line-height: 1.125rem;
     margin: 0rem 1rem;
   }
   .logo {
     font-size: 1.3em;
-    line-height: 35px;
+    line-height: 2.1875rem;
     margin-left: 3rem;
     margin-right: 2rem;
   }
@@ -174,7 +174,7 @@ body{
     font-weight: 400;
     line-height: 155.556%;
     border-radius: 1.625rem;
-    border: 1px solid #FFF;
+    border: 0.0625rem solid #FFF;
     background: rgba(0, 0, 0, 0.00);
     width: 12.5rem;
     height: 3.25rem;
@@ -215,7 +215,7 @@ body{
     align-items: center;
     flex-shrink: 0;
     border-radius: 50%;
-    border: 1px solid #EFFDFA;
+    border: 0.0625rem solid #EFFDFA;
     background: rgba(0, 0, 0, 0.00);
     position:relative;
     top: 8.44rem;
