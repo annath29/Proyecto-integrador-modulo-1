@@ -21,7 +21,7 @@ body {
   background-color: #093931; /* Ajusta este color al de tu imagen */
   font-family: Manrope;
   width: 100vw;
-  height: 62px;
+  height: 3.875rem;
   flex-shrink: 0;
 }
 
@@ -30,9 +30,9 @@ body {
   color: #F2C66D;
   font-weight: bold;
   font-family: Cormorant Garamond;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
-  line-height: 46px;
+  line-height: 2.875rem;
   letter-spacing: 0em;
   text-align: left;
   margin-left: 8.25rem;
@@ -41,9 +41,9 @@ body {
   display: flex;
   justify-content: flex-start; /* Alinea los elementos hacia la izquierda */
   font-family: Manrope;
-  font-size: 10px;
-  font-weight: 40px;
-  line-height: 10px;
+  font-size: 0.625rem;
+  font-weight: 2.5rem;
+  line-height: 0.625rem;
   letter-spacing: 0em;
   text-align: left;
   margin-left: auto;
@@ -53,12 +53,12 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 0.875rem;
-  font-weight: 30px;
-  line-height: 30px;
-  letter-spacing: 0em;
+  font-weight: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: 0rem;
   text-align: left;
   position: relative;
-  padding: 10px;
+  padding: 0.625rem;
 
   font-family: Cormorant Garamond;
 }
@@ -67,9 +67,9 @@ body {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
+  height: 0.125rem;
   display: block;
-  margin-top: 5px;
+  margin-top:  0.3125rem;
   right: 0;
   background: #F2C66D;
   transition: width 0.3s;
@@ -107,8 +107,8 @@ body {
   height: auto; /* Mantiene la proporción de aspecto del ícono */
   filter: invert(99%) sepia(3%) saturate(2%) hue-rotate(96deg) brightness(106%)
     contrast(97%);
-  padding: 35px; /* Espaciado alrededor de los íconos */
-  margin: 10x; /* Ajusta la separación entre íconos */
+  padding: 2.1875rem; /* Espaciado alrededor de los íconos */
+  margin: 0.625rem; /* Ajusta la separación entre íconos */
 }
 
 .icon:hover {
@@ -118,12 +118,12 @@ body {
 @media screen and (max-width:952px){
   .nav-link {
     font-size: 0.8rem;
-    line-height: 20px;
-    padding: 8px;  
+    line-height: 1.25rem;
+    padding: 0.5rem;  
   }
   .logo {
     font-size: 1.5em;
-    line-height: 40px;
+    line-height: 2.5rem;
     margin-left: 5rem;
     margin-right: 2rem;
   }
@@ -135,8 +135,8 @@ body {
 @media screen and (max-width:730px){
   .nav-link {
     font-size: 0.75rem;
-    line-height: 18px;
-    padding: 6px;  
+    line-height: 1.125rem;
+    padding: 0.375rem;  
   }
   .logo {
     font-size: 1.3em;
