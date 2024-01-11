@@ -333,6 +333,114 @@
   line-height: 162.5%;
 }
 
+/* ----------------------- */
+
+.collections{
+  height: 67.625rem;
+  /* border: 1rem solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #0D554A; */
+}
+
+.collections>h1{
+  margin:0rem 45% 2.5rem 45%;
+  width: 30%;
+  color: #0D554A;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+} 
+
+.collections>button{
+  margin:2% 45%;
+  width: 12.5rem;
+  height: 3.5rem;
+  text-align: center;
+  /* padding: 0.75rem 3.6875rem; */
+  border-radius: 1.625rem;
+  border: 1px solid #0D554A;
+  background: rgba(0, 0, 0, 0.00);
+  color: #0D554A;
+  font-family: Manrope;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.556%;
+}
+
+.conteiner_collections{
+  width:100%;
+  height: 25rem;
+  background: #FFF;
+  /* background: red; */
+  display: flex;
+  justify-content:space-between;
+}
+
+.collection{
+  width: 22%;
+  height: 22.5rem;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150% ;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center; 
+  /* border: 1rem solid blue; */
+}
+
+.collection--1{
+  background: url(./assets/Colecciones/coleccion1.png), lightgray 0px -90px / 100% 150% no-repeat;
+  margin: 2.5rem 3rem 2.5rem 5.25rem ;
+}
+.collection--2{
+  margin: 0rem 3rem 2.5rem 0rem ;
+  background: url(./assets/Colecciones/coleccion2.png), lightgray 0px -90px / 100% 150% no-repeat;
+}
+
+.collection--3{
+  margin: 2.5rem 5.25rem 2.5rem 0rem ;
+  background: url(./assets/Colecciones/coleccion3.png), center/cover;
+}
+
+.collection--4{
+  background: url(./assets/Colecciones/coleccion4.png), lightgray 0px -90px / 100% 150% no-repeat;
+  margin: 2.5rem 3rem 2.5rem 5.25rem ;
+}
+.collection--5{
+  background: url(./assets/Colecciones/coleccion5.png), lightgray 0px -90px / 100% 150% no-repeat;
+  margin: 0rem 3rem 2.5rem 0rem ;
+}
+
+.collection--6{
+  background: url(./assets/Colecciones/coleccion6.png), lightgray 0px -90px / 100% 150% no-repeat;
+  margin: 2.5rem 5.25rem 2.5rem 0rem ;
+}
+.conteiner_collections> div> h3{
+  position: relative;
+  top:18rem; 
+  color: #FFF;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-style: normal;  word-wrap:break-word;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* ----------------------- */
+
 @media screen and (max-width: 1328px) {
   .img_video {
     position: relative;
@@ -368,6 +476,13 @@
     line-height: 162%;
   }
   
+}
+@media screen and (max-width: 1250px) {
+  .conteiner_collections> div> h3{
+    top:17rem; 
+    font-size: 1.9rem;
+    line-height: 120%;
+  } 
 }
 @media screen and (max-width: 1200px) {
   .servicio {
@@ -474,6 +589,19 @@
     font-size: 0.9rem;
     line-height: 155%;
   }
+  /* -------------------------- */
+  .collections{
+    height: 67rem;
+  }
+  .collections>h1{
+    width: 40%;
+    line-height: 130%;
+  }   
+  .conteiner_collections> div> h3{
+    top:16rem; 
+    font-size: 1.8rem;
+    line-height: 110%;
+  } 
 }
 @media screen and (max-width: 768px) {
   .nav-link {
@@ -560,6 +688,17 @@
     font-size: 0.7rem;
     line-height: 155%;
   }
+  /* -------------------------- */
+  .collections{
+    height: 60rem;
+  }
+  .collection{
+    height: 20rem;
+  }
+  .conteiner_collections> div> h3{
+    top:15rem; 
+    font-size: 1.7rem;
+  } 
 }
 @media screen and (max-width: 665px) {
   .nav-link {
@@ -599,8 +738,44 @@
     font-size: 0.675rem;
     line-height: 150%;
   }
-}
+  /* ------------------------------- */
+  .collections>h1{
+    width: 50%;
+    font-size: 2rem;
+    line-height: 120%;
+    margin:0rem 45% 1.5rem 45%;
+  }
+  .collection{
+    width: 23%;
+    height:18rem;
+  } 
+  .conteiner_collections{
+    height: 20rem;
+  } 
+  .conteiner_collections> div> h3{
+    top:13rem; 
+    font-size: 1.5rem;
+  } 
+  .collection--1{
+    margin: 1.5rem 2rem 1.5rem 4.25rem ;
+  }
+  .collection--2{
+    margin: 0rem 2rem 1.5rem 0rem ;
+  }  
+  .collection--3{
+    margin: 1.5rem 4.25rem 1.5rem 0rem ;
+  }  
+  .collection--4{
+    margin: 1.5rem 2rem 1.5rem 4.25rem ;
+  }
+  .collection--5{
+    margin: 0rem 2rem 1.5rem 0rem ;
+  }  
+  .collection--6{
+    margin: 1.5rem 4.25rem 1.5rem 0rem ;
+  }
 
+}
 @media screen and (max-width: 480px) {
   .nav-link {
     font-size: 0.5rem;
@@ -728,4 +903,54 @@
     line-height: 150%;
     margin-bottom: 1%;
   }
+  /* --------------------------------- */
+  .collections{
+    height: 40rem;/*60*/
+  }
+  .collections>button{
+    width: 12rem;
+    height: 2rem;
+    font-size: 1rem;
+    line-height: 110%;
+  }
+  .conteiner_collections{
+    height: 15rem;
+  }
+  .conteiner_collections> div> h3{
+    top:9rem; 
+    font-size: 1rem;
+    line-height: 110%;
+  }
+  .collection{
+    width: 22%;
+    height: 12.5rem;
+    font-size: 1rem;
+    line-height: 110% ;
+    border-radius: 1rem;
+  }
+  .collections>h1{
+    width: 50%;
+    font-size: 1.7rem;
+    line-height: 120%;
+    margin:0rem 45% 1rem 45%;
+  }
+  .collection--1{
+    margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
+  }
+  .collection--2{
+    margin: 0rem 1.7rem 1.2rem 0rem ;
+  }  
+  .collection--3{
+    margin: 1.2rem 3.5rem 1.2rem 0rem ;
+  }  
+  .collection--4{
+    margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
+  }
+  .collection--5{
+    margin: 0rem 1.7rem 1.2rem 0rem ;
+  }  
+  .collection--6{
+    margin: 1.2rem 3.5rem 1.2rem 0rem ;
+  }
+
 }
