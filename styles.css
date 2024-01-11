@@ -438,7 +438,7 @@
   font-weight: 400;
   line-height: 150%;
 }
-
+/* -------------------------------------------------------- */
 .our-story {
   position: relative;
   max-width: 100%; 
@@ -494,6 +494,265 @@
   width: 100%; 
   height: auto; 
 }
+
+/* ----------------------------------------------------------- */
+.footer {
+  background-color: #093931;
+  max-width: 100%;
+}
+
+.footer-container--top {
+  display: flex;
+}
+
+.footer-container--article {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  left: 7%;
+  top: 7rem;
+  bottom: 5rem;
+  right: 10rem;
+  width: 50%;
+}
+
+.article-footer--title {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: Cormorant Garamond;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 2.875rem;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.article-footer--texto {
+  font-family: Manrope;
+  text-align: justify;
+  font-weight: lighter;
+  width: 264px;
+  height: 6.5rem;
+  top: 15.5625rem;
+  margin-top: 0.625rem;
+  left: 8.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-figure {
+  background-color: #171a1f4d;
+  display: flex;
+  width: 60%;
+  position: relative;
+  text-align: center;
+  border-right: 0.5rem;
+  margin-right: 7%;
+  margin-top: 5%;
+}
+
+.footer-figure--img {
+  /* width: auto;  se utliza auto para la resolucion orginal de la imagen */
+  /* width: 30%;
+  border-right: 8px 0; */
+  width: 300px;
+  height: 23.4375rem;
+  top: 3rem;
+  left: 38.25rem;
+  border-radius:  0.5rem;
+}
+
+.footer-figure--figcaption {
+  font-family: Manrope;
+  text-align: center;
+  color: #fff;
+  width: 324px;
+  height: 11.375rem;
+  left: 21rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 2.5rem;
+  margin-top: 3.75rem; /* Ajusta este valor para bajar el texto */
+  margin-left: 1.25rem; /* Añade espacio a la izquierda */
+  /* Resto de tu CSS */
+}
+
+.figcaption--h1 {
+  /* font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem; */
+
+  font-family: Manrope;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0.9375rem;
+}
+
+.figcaption--p {
+  font-size: 1rem;
+}
+
+.footer-container--medio {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 7%;
+}
+
+.section-footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+  margin-right: 7rem;
+}
+
+.footer-menu-right,
+.footer-menu-left {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 1rem;
+  margin-bottom: 3.125rem;
+  width: 120px;
+  height: 1.375rem;
+  top: 3.125rem;
+  left:37.5625rem;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.9375rem;
+  /* letter-spacing: 0em; */
+  text-align: left;
+}
+
+.footer-input {
+  width: 25rem;
+  border-radius: 18px 0px 0px 18px;
+  border: 1px solid #fff;
+  height: 2.5rem;
+  font-family: Manrope;
+  font-size: 1rem;
+  background-color: #093931;
+  margin-top: -50px;
+}
+
+.footer-button {
+  background-color: #f2c66d;
+  font-family: Manrope;
+  font-size: 1rem;
+  border-style: none;
+  border-radius: 0rem 1.125rem 1.125rem 0rem;
+  width: 7rem;
+  height: 2.5rem;
+  margin-left: -0.25rem;
+  margin-top: -50px;
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  left: 79%;
+  top: 0.625rem;
+  display: inline-flex; /* Alinea los iconos en línea y permite el uso de flexbox */
+  justify-content: center; /* Centra los iconos horizontalmente */
+}
+
+.footer-icon--twitter {
+  margin-right: 1.25rem;
+}
+
+.footer-icon--facebook {
+  margin-right: 1.25rem;
+}
+
+.footer-icon--linkedln {
+  margin-right: 1.25rem;
+}
+
+.footer-title--suscribe{
+  height: 1.875rem;
+} 
+
+.footer-title--suscribe{
+  font-family: Cormorant Garamond;
+  font-size: 1.25rem;
+  font-weight: 25rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -0.625rem;
+}
+
+.footer-parrafo--suscribe{
+font-family: Manrope;
+font-size:  0.875rem;
+font-weight: 400;
+line-height: 1.25rem;
+letter-spacing: 0em;
+text-align: left;
+height: 1.75rem;
+}
+
+.footer-imagen--email---input{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  left: 2%;
+  top: 1rem;
+}
+
+.footer--caption---button{
+  display: flex;
+  margin-left: 14.375rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.875rem;
+}
+
+.footer-button--caption---right, .footer-button--caption---left{
+  /* border-width: 0 5px 5px 0; */
+  border-color: transparent transparent white white;
+  margin-right: 0.625rem;
+  background-color: transparent;
+  border:  solid white; /* Añade un borde blanco */
+  color: white;
+  border-radius: 50%; /* Hace los botones redondos */
+}
+
+.footer-button--caption---right{
+  border-color: transparent transparent white white;
+  border: solid white;
+  border-width: 0 0px 0px 0; /* Grosor del borde para formar la flecha */
+  padding: 3px; /* Tamaño de la flecha */
+}
+
+
+.footer-button--caption---left{
+  border-color: transparent transparent white white;
+  border: solid white;
+  border-width: 0 0px 0px 0; /* Grosor del borde para formar la flecha */
+  padding: 0.1875rem; /* Tamaño de la flecha */
+}
+
+
+
 
 /* ----------------------- */
 
@@ -660,7 +919,7 @@
   } 
 }
 
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
   .our-story-title {
     font-size: 1.25rem;
   }
@@ -766,6 +1025,63 @@
     top:15rem; 
     font-size: 1.7rem;
   } 
+  /* -------------------------------- */
+  .footer-container--top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-container--article,
+  .footer-figure {
+    width: 100%;
+    padding: 0 0.9375rem;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin-top: 1.25rem;
+  }
+
+  .footer-figure--img {
+    width: 40%; 
+    height: auto; 
+    margin: 0 auto;
+  }
+
+  .footer--caption---button {
+    justify-content: space-around;
+    margin-left: 0;
+  }
+
+  .footer-container--medio {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-menu-right,
+  .footer-menu-left {
+    text-align: center;
+    margin-bottom: 1.25rem;
+    width: auto;
+  }
+
+  .footer-input,
+  .footer-button {
+    width: auto;
+    max-width: 90%;
+    margin-top: 10px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    left: 0;
+    margin-top: 0.625rem;
+  }
+
+  .footer-container--top, .footer-container--medio, .footer-media, .footer-bottom {
+    max-width: 100%; 
+    box-sizing: border-box; 
+  }
 }
 @media screen and (max-width: 665px) {
   .nav-link {
@@ -1019,16 +1335,36 @@
   .collection--6{
     margin: 1.2rem 3.5rem 1.2rem 0rem ;
   }
-
-}
-
-@media (max-width: 480px) {
+  /* ---------------------------------------- */
   .our-story-title {
-    font-size: 1.125rem; /* Tamaño aún más pequeño para el título */
+    font-size: 1.125rem;
   }
 
   .play-button {
-    width: 1.875rem; /* Botón aún más pequeño */
-    height: 1.875rem; /* Botón aún más pequeño */
+    width: 1.875rem; 
+    height: 1.875rem;
+  }
+  /* --------------------------- */
+  .article-footer--title {
+    font-size: 1.5rem; 
+  }
+  .footer-figure--figcaption,
+  .figcaption--h1,
+  .figcaption--p {
+    font-size: 0.625rem; 
+  }
+
+  .footer--caption---button button {
+    padding: 0.3125rem; 
+  }
+  
+  /* .footer-title--suscribe {
+    height: 30px;
+  } */
+  
+  .footer-title--suscribe {
+    font-family: Cormorant Garamond;
+    margin-right: 100%
   }
 }
+
