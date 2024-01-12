@@ -97,6 +97,9 @@
 .container_seccion_principal {
   background: #093931;
   background-image: url(./assets/fondoVectores.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 47.44rem;
   flex-shrink: 0;
@@ -144,6 +147,7 @@
   height: 33.9375rem;
   /* background: fuchsia; */
   margin: 4.81rem 9.25rem 8.6rem 0rem;
+  position: relative;
 }
 
 .imagen_principal {
@@ -151,14 +155,14 @@
   position: absolute;
   background: url(./assets/seccionppalimg1.png),
     lightgray 0rem -2.0625rem / 100% 112.339% no-repeat;
-  /* width: 25.4375rem; */
-  width: 28%;
+  width: 25.4375rem;
+  /* width: 28%; */
   height: 33.9375rem;
   flex-shrink: 0;
 }
 
 .img_video {
-  position: relative;
+  position: absolute;
   top: 6.94rem;
   right: 9.25rem;
   bottom: 6.94rem;
@@ -1025,7 +1029,7 @@ height: 1.75rem;
     top:15rem; 
     font-size: 1.7rem;
   } 
-  /* -------------------------------- */
+  /* ------------------------------------ */
   .footer-container--top {
     flex-direction: column;
     align-items: center;
@@ -1176,64 +1180,43 @@ height: 1.75rem;
   }
   /* ------------------------------------------  */
   .container_seccion_principal {
-    height: 40rem;
+    height: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0rem;
     /* background: black; */
     gap: 0rem;
   }
-
   .seccion_principal_texto {
-    width: 100%;
-    height: 30%;
-    text-align: justify;
-    margin: 0rem;
-    /* background-color: maroon; */
-  }
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    background-color: maroon;
 
+  }
   .seccion_principal_imagenes {
-    width: 100%;
-    height: 70%;
-    margin: 0rem;
+    display: none;
   }
   .seccion_principal_texto > p {
     /* background: rebeccapurple; */
-    padding: 5%;
-    margin: 0rem 20%;
-    width: 60%;
+    /* padding: 5%; */
+    /* margin: 0rem 20%; */
+    text-align: center;
+    margin: 5% 10%;
+    padding: 0rem;
+    width: 80%;
     height: 40%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 110%;
   }
   .boton_shop {
+    /* margin: 5% 30%; */
     margin: 5% 30%;
-    font-size: 0.75rem;
+    font-size: 0.625rem;
     line-height: 110%;
-    border-radius: 1.625rem;
-    border: 0.0625rem solid #fff;
-    background: rgba(0, 0, 0, 0);
     width: 40%;
     height: 10%;
-  }
-  .imagen_principal {
-    margin: 1rem 20% 1rem 15%;
-    width: 60%;
-    height: 100%;
-  }
-  .img_video {
-    width: 40%;
-    height: 60%;
-    top: 3.5rem;
-    left: 16rem;
-  }
-  .boton_play {
-    width: 3rem;
-    height: 3rem;
-    padding: 0.3rem;
-    top: 6.5rem;
-    left: 5rem;
-    right: 0rem;
   }
   /* ------------------------- */
   .conteiner_servicios {
@@ -1344,7 +1327,7 @@ height: 1.75rem;
     width: 1.875rem; 
     height: 1.875rem;
   }
-  /* --------------------------- */
+  /* ------------------------------------------------------ */
   .article-footer--title {
     font-size: 1.5rem; 
   }
