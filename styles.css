@@ -397,18 +397,22 @@
   width: 22%;
   height: 22.5rem;
   flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150% ;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
   /* border: 1rem solid blue; */
 
+}
+.conteiner_collections> div> h3{
+  position: relative;
+  top:18rem;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-style: normal;  word-wrap:break-word;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .collection--1{
@@ -444,17 +448,7 @@
   background-size: cover;
   margin: 2.5rem 5.25rem 2.5rem 0rem ;
 }
-.conteiner_collections> div> h3{
-  position: relative;
-  top:18rem;
-  color: #FFF;
-  text-align: center;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2rem;
-  font-style: normal;  word-wrap:break-word;
-  font-weight: 400;
-  line-height: 150%;
-}
+
 /* -------------------------------------------------------- */
 .our-story {
   position: relative;
@@ -546,7 +540,6 @@
   text-align: left;
 
 }
-
 
 .article-footer--texto {
   font-family: Manrope;
@@ -1232,7 +1225,7 @@ height: 1.75rem;
   /* ------------------------- */
   .conteiner_servicios {
     height: 10rem;
-    background: peru;
+    /* background: peru; */
   }
   .servicio {
     text-align: center;
@@ -1295,7 +1288,7 @@ height: 1.75rem;
     width: 40%;
     height: 20%;
     margin: 0% 30%;
-    font-size: 0.775rem;
+    font-size: 0.8rem;
     line-height: 120%;
   }
   .productos{
@@ -1332,160 +1325,68 @@ height: 1.75rem;
   /* --------------------------------- */
   .collections{
     height: 40rem;
-    background: #093931;
+    /* background: #093931; */
   }
   .collections>h2{
     text-align: center;
     width: 100%;
     height: 10%;
     font-size: 1.7rem;
-    margin:0rem;
+    margin:10% 0% 5% 0%;
     line-height: 110%;
   }
   .collections>button{
     width: 40%;
     height: 10%;
-    margin: 0% 30%;
+    margin: 5% 30% 10% 30%;
     font-size: 1rem;
     line-height: 120%;
   }
   .conteiner_collections{
-    height: 80%;
+    width: 90%;
+    height: 50%;
+    justify-content: initial;
+    margin:1% 5%;
+    /* background: navy; */
+  }
+
+  .collection{
+    width: 24%;
+    height: 90%;
+    justify-content: center;
+    align-items:self-end;
+    /* background: red; */
   }
   .conteiner_collections> div> h3{
-    top:9rem;
+    top: 0rem;
+    margin-bottom:15%;
     font-size: 1rem;
     line-height: 110%;
   }
-  .collection{
-    width: 22%;
-    height: 12.5rem;
-    font-size: 1rem;
-    line-height: 110% ;
-    border-radius: 1rem;
-  }
-
-  /*   
-  
-  .collections>button{
-    margin:2% 45%;
-    width: 12.5rem;
-    height: 3.5rem;
-    text-align: center;
-    /* padding: 0.75rem 3.6875rem; 
-    border-radius: 1.625rem;
-    border: 1px solid #0D554A;
-    background: rgba(0, 0, 0, 0.00);
-    color: #0D554A;
-    font-family: Manrope;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 155.556%;
-  }
-  
-  .conteiner_collections{
-    width:100%;
-    height: 25rem;
-    background: #FFF;
-    /* background: red; 
-    display: flex;
-    justify-content:space-between;
-  }
-  
-  .collection{
-    width: 22%;
-    height: 22.5rem;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150% ;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    /* border: 1rem solid blue; 
-  
-  }
-  
-  .collection--1{
-    background: url(./assets/Colecciones/coleccion1.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-    margin: 2.5rem 3rem 2.5rem 5.25rem ;
-  }
-  .collection--2{
-    margin: 0rem 3rem 2.5rem 0rem ;
-    background: url(./assets/Colecciones/coleccion2.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-  }
-  
-  .collection--3{
-    margin: 2.5rem 5.25rem 2.5rem 0rem ;
-    background: url(./assets/Colecciones/coleccion3.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-  }
-  
+  .collection--1,
   .collection--4{
-    background: url(./assets/Colecciones/coleccion4.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-    margin: 2.5rem 3rem 2.5rem 5.25rem ;
+    margin:5% 0% 0% 5%;
   }
-  .collection--5{
-    background: url(./assets/Colecciones/coleccion5.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-    margin: 0rem 3rem 2.5rem 0rem ;
+
+  .collection--2, .collection--5{
+    margin: 0% 9% 5% 9%;
   }
-  
+  .collection--3,
   .collection--6{
-    background: url(./assets/Colecciones/coleccion6.png), lightgray 0px -90px / 100% 150% no-repeat;
-    background-size: cover;
-    margin: 2.5rem 5.25rem 2.5rem 0rem ;
+    margin:5% 5% 0% 0%;
   }
-  .conteiner_collections> div> h3{
-    position: relative;
-    top:18rem;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2rem;
-    font-style: normal;  word-wrap:break-word;
-    font-weight: 400;
-    line-height: 150%;
-  } */
-
-  .collection--1{
-    margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
-  }
-  .collection--2{
-    margin: 0rem 1.7rem 1.2rem 0rem ;
-  }
-  .collection--3{
-    margin: 1.2rem 3.5rem 1.2rem 0rem ;
-  }
-  .collection--4{
-    margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
-  }
-  .collection--5{
-    margin: 0rem 1.7rem 1.2rem 0rem ;
-  }
-  .collection--6{
-    margin: 1.2rem 3.5rem 1.2rem 0rem ;
-  }
-
-
 
   /* ---------------------------------------- */
   .our-story-title {
-    font-size: 1.125rem;
+    font-size: 1.7rem;
   }
 
   .play-button {
     width: 1.875rem;
     height: 1.875rem;
   }
+
+
   /* ------------------------------------------------------ */
   .article-footer--title {
     font-size: 1.5rem;
