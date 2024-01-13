@@ -302,6 +302,9 @@
   font-weight: 400;
   line-height: 155.556%;
 }
+.productos{
+  display: flex;
+}
 
 .cards {
   width: 20%;
@@ -311,15 +314,18 @@
   border-radius: 0.5rem;
   background: #fff;
   /* background-color: mediumslateblue; */
-  box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07),
-    0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+  /* box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12); */
+  box-shadow: 0px 0px 5px 0px rgba(23, 26, 31, 0.2), 0px 0px 10px 0px rgba(23, 26, 31, 0.3);
 }
 .cards > img {
   width: 100%;
   height: 20rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-size: cover;
 }
 
-.cards > h3 {
+.cards > h4 {
   color: #171a1f;
   font-family: "Cormorant Garamond", serif;
   font-size: 1.5rem;
@@ -349,7 +355,7 @@
   /* background: #0D554A; */
 }
 
-.collections>h1{
+.collections>h2{
   margin:0rem 45% 2.5rem 45%;
   width: 30%;
   color: #0D554A;
@@ -359,7 +365,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
-} 
+}
 
 .collections>button{
   margin:2% 45%;
@@ -400,40 +406,47 @@
   line-height: 150% ;
   border-radius: 1rem;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   /* border: 1rem solid blue; */
+
 }
 
 .collection--1{
   background: url(./assets/Colecciones/coleccion1.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
   margin: 2.5rem 3rem 2.5rem 5.25rem ;
 }
 .collection--2{
   margin: 0rem 3rem 2.5rem 0rem ;
   background: url(./assets/Colecciones/coleccion2.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
 }
 
 .collection--3{
   margin: 2.5rem 5.25rem 2.5rem 0rem ;
-  background: url(./assets/Colecciones/coleccion3.png), center/cover;
+  background: url(./assets/Colecciones/coleccion3.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
 }
 
 .collection--4{
   background: url(./assets/Colecciones/coleccion4.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
   margin: 2.5rem 3rem 2.5rem 5.25rem ;
 }
 .collection--5{
   background: url(./assets/Colecciones/coleccion5.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
   margin: 0rem 3rem 2.5rem 0rem ;
 }
 
 .collection--6{
   background: url(./assets/Colecciones/coleccion6.png), lightgray 0px -90px / 100% 150% no-repeat;
+  background-size: cover;
   margin: 2.5rem 5.25rem 2.5rem 0rem ;
 }
 .conteiner_collections> div> h3{
   position: relative;
-  top:18rem; 
+  top:18rem;
   color: #FFF;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
@@ -445,58 +458,58 @@
 /* -------------------------------------------------------- */
 .our-story {
   position: relative;
-  max-width: 100%; 
-  margin: auto; 
-  text-align: center; 
-  padding: 20px; 
+  max-width: 100%;
+  margin: 1rem;
+  text-align: center;
+  padding: 20px;
   background-color: #fff;
   box-sizing: border-box;
 }
 
 .our-story-title {
-  font-size: 24px; 
-  color: #093931; 
-  margin-bottom: 20px; 
+  font-size: 24px;
+  color: #093931;
+  margin-bottom: 20px;
   text-align: center;
   font-family: Cormorant Garamond;
 }
 
 .our-story-content {
   position: relative;
-  display: inline-block; 
-  display: block; 
-  max-width: 100%; 
+  display: inline-block;
+  display: block;
+  max-width: 100%;
   overflow: hidden;
 }
 
 .our-story-image {
   max-width: 100%;
-  height: auto; 
-  border-radius: 8px; 
+  height: auto;
+  border-radius: 8px;
 }
 
 
 .play-button {
   background-color: #fff;
-  border-radius: 100%; 
+  border-radius: 100%;
   border: none;
-  padding: 0; 
-  padding: 0px; 
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  box-shadow: 0 4px 8px #ddd(0, 0, 0, 0.1); 
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
+  padding: 0;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px #ddd(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  width: 64px; 
-  height: 64px; 
+  width: 64px;
+  height: 64px;
 
 }
 .play-button img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 /* ----------------------------------------------------------- */
@@ -586,8 +599,8 @@
   letter-spacing: 0em;
   text-align: left;
   margin-left: 2.5rem;
-  margin-top: 3.75rem; /* Ajusta este valor para bajar el texto */
-  margin-left: 1.25rem; /* Añade espacio a la izquierda */
+  margin-top: 3.75rem;
+  margin-left: 1.25rem;
   /* Resto de tu CSS */
 }
 
@@ -691,7 +704,7 @@
 
 .footer-title--suscribe{
   height: 1.875rem;
-} 
+}
 
 .footer-title--suscribe{
   font-family: Cormorant Garamond;
@@ -758,7 +771,7 @@ height: 1.75rem;
 
 
 
-/* ----------------------- */
+/* -----Media Query---------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 1328px) {
   .img_video {
@@ -790,18 +803,18 @@ height: 1.75rem;
   }
   .cards {
     margin: 3rem 1.2rem;
-  } 
+  }
   .cards > p {
     line-height: 162%;
   }
-  
+
 }
 @media screen and (max-width: 1250px) {
   .conteiner_collections> div> h3{
-    top:17rem; 
+    top:17rem;
     font-size: 1.9rem;
     line-height: 120%;
-  } 
+  }
 }
 @media screen and (max-width: 1200px) {
   .servicio {
@@ -822,7 +835,7 @@ height: 1.75rem;
     height: 3.5rem;
   }
   /* --------------------------------------- */
- 
+
   .productos_descripción > p {
     line-height: 160%;
   }
@@ -834,7 +847,7 @@ height: 1.75rem;
   }
   .cards {
     margin: 3rem 1.1rem;
-  } 
+  }
   .cards > p {
     line-height: 160%;
   }
@@ -865,13 +878,13 @@ height: 1.75rem;
     width: 100%;
     height: 80%;
   }
-  .cards > h3 {
+  .cards > h4 {
     line-height: 140%;
-  } 
+  }
   .cards > p {
     line-height: 155%;
   }
-  
+
 }
 @media screen and (max-width: 952px) {
   .nav-link {
@@ -900,10 +913,10 @@ height: 1.75rem;
     font-size: 1rem;
     line-height: 140%;
   }
-  .cards > h3 {
+  .cards > h4 {
     font-size: 1.3rem;
     line-height: 140%;
-  } 
+  }
   .cards > p {
     font-size: 0.9rem;
     line-height: 155%;
@@ -915,12 +928,12 @@ height: 1.75rem;
   .collections>h1{
     width: 40%;
     line-height: 130%;
-  }   
+  }
   .conteiner_collections> div> h3{
-    top:16rem; 
+    top:16rem;
     font-size: 1.8rem;
     line-height: 110%;
-  } 
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -929,8 +942,8 @@ height: 1.75rem;
   }
 
   .play-button {
-    width: 2.5rem; 
-    height: 2.5rem; 
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1010,10 +1023,10 @@ height: 1.75rem;
     height: 22rem;
     margin: 3rem 0.7rem;
   }
-  .cards > h3 {
+  .cards > h4 {
     font-size: 1.05rem;
     line-height: 140%;
-  } 
+  }
   .cards > p {
     font-size: 0.7rem;
     line-height: 155%;
@@ -1026,9 +1039,9 @@ height: 1.75rem;
     height: 20rem;
   }
   .conteiner_collections> div> h3{
-    top:15rem; 
+    top:15rem;
     font-size: 1.7rem;
-  } 
+  }
   /* ------------------------------------ */
   .footer-container--top {
     flex-direction: column;
@@ -1047,8 +1060,8 @@ height: 1.75rem;
   }
 
   .footer-figure--img {
-    width: 40%; 
-    height: auto; 
+    width: 40%;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -1083,8 +1096,8 @@ height: 1.75rem;
   }
 
   .footer-container--top, .footer-container--medio, .footer-media, .footer-bottom {
-    max-width: 100%; 
-    box-sizing: border-box; 
+    max-width: 100%;
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 665px) {
@@ -1117,10 +1130,10 @@ height: 1.75rem;
   .cards {
     margin: 3rem 0.6rem;
   }
-  .cards > h3 {
+  .cards > h4 {
     font-size: 0.9rem;
     line-height: 130%;
-  } 
+  }
   .cards > p {
     font-size: 0.675rem;
     line-height: 150%;
@@ -1135,29 +1148,29 @@ height: 1.75rem;
   .collection{
     width: 23%;
     height:18rem;
-  } 
+  }
   .conteiner_collections{
     height: 20rem;
-  } 
+  }
   .conteiner_collections> div> h3{
-    top:13rem; 
+    top:13rem;
     font-size: 1.5rem;
-  } 
+  }
   .collection--1{
     margin: 1.5rem 2rem 1.5rem 4.25rem ;
   }
   .collection--2{
     margin: 0rem 2rem 1.5rem 0rem ;
-  }  
+  }
   .collection--3{
     margin: 1.5rem 4.25rem 1.5rem 0rem ;
-  }  
+  }
   .collection--4{
     margin: 1.5rem 2rem 1.5rem 4.25rem ;
   }
   .collection--5{
     margin: 0rem 2rem 1.5rem 0rem ;
-  }  
+  }
   .collection--6{
     margin: 1.5rem 4.25rem 1.5rem 0rem ;
   }
@@ -1192,7 +1205,7 @@ height: 1.75rem;
     width: 80%;
     height: 80%;
     margin: 10%;
-    background-color: maroon;
+    /* background-color: maroon; */
 
   }
   .seccion_principal_imagenes {
@@ -1200,8 +1213,6 @@ height: 1.75rem;
   }
   .seccion_principal_texto > p {
     /* background: rebeccapurple; */
-    /* padding: 5%; */
-    /* margin: 0rem 20%; */
     text-align: center;
     margin: 5% 10%;
     padding: 0rem;
@@ -1213,77 +1224,136 @@ height: 1.75rem;
   .boton_shop {
     /* margin: 5% 30%; */
     margin: 5% 30%;
-    font-size: 0.625rem;
+    font-size: 0.8rem;
     line-height: 110%;
     width: 40%;
-    height: 10%;
+    height: 15%;
   }
   /* ------------------------- */
   .conteiner_servicios {
-    height: 10.5rem;
+    height: 10rem;
+    background: peru;
   }
-
+  .servicio {
+    text-align: center;
+    margin:10% 0rem;
+    width: 33%;
+    height:80%;
+  }
   .servicio > h3 {
+    height: 20%;
     font-size: 1rem;
+    margin-bottom: 5%;
     line-height: 110%;
   }
   .servicio > svg {
-    width: 2.2rem;
-    height: 2.2rem;
+    width:30%;
+    height: 30%;
   }
   .servicio > p {
-    font-size: 0.6rem;
+    width: 90%;
+    margin: 0rem 5%;
+    /* background: white; */
+    font-size: 0.625rem;
     line-height: 120%;
-    margin-bottom: 0rem;
   }
+
   /* --------------------------------- */
+  .conteiner_productos {
+    height: 25rem;
+    margin: 0rem;
+    padding:0rem;
+    /* background: darksalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+  }
   .productos_descripción {
-    margin-left: 2.5%;
+    width: 100%;
+    height: 35%;
+    /* background-color: #171a1f; */
+    margin: 10% 0% 0% 0%;
   }
   .productos_descripción > h2 {
-    font-size: 1.5rem;
+    text-align: center;
+    height: 20%;
+    margin:0rem;
+    font-size: 1.7rem;
     line-height: 110%;
+    /* background: white; */
   }
   .productos_descripción > p {
+    text-align: center;
+    width:80%;
+    height:20%;
+    margin:5% 10%;
     font-size: 0.7rem;
+    /* background:khaki; */
     line-height: 140%;
   }
   .button_shop_verde {
-    width: 85%;
-    height: 2rem;
+    width: 40%;
+    height: 20%;
+    margin: 0% 30%;
     font-size: 0.775rem;
     line-height: 120%;
   }
+  .productos{
+    height: 50%;
+    margin-bottom: 5%;
+    /* background-color:red; */
+    padding:0% 2%;
+    /* margin: 0rem; */
+  }
   .cards {
-    height: 18rem;
-    margin: 3rem 0.6rem;
+    width:25%;
+    height: 80%;
+    margin:5% 2%;
   }
-  .cards > h3 {
-    margin: 0 5%;
-    font-size: 0.9rem;
-    line-height: 130%;
-  } 
+  .cards > img {
+    height: 75%;
+    margin: 0rem;
+  }
+  .cards > h4 {
+    width:95%;
+    height:10%;
+    margin: 0% 2%;
+    font-size: 0.8rem;
+    line-height: 100%;
+  }
   .cards > p {
-    margin: 0 5%;
+    width:95%;
+    height: 10%;
     font-size: 0.6rem;
-    line-height: 150%;
-    margin-bottom: 1%;
+    line-height: 110%;
+    margin: 0% 2%;
   }
+  
   /* --------------------------------- */
   .collections{
-    height: 40rem;/*60*/
+    height: 40rem;
+    background: #093931;
   }
-  .collections>button{
-    width: 12rem;
-    height: 2rem;
-    font-size: 1rem;
+  .collections>h2{
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    font-size: 1.7rem;
+    margin:0rem;
     line-height: 110%;
   }
+  .collections>button{
+    width: 40%;
+    height: 10%;
+    margin: 0% 30%;
+    font-size: 1rem;
+    line-height: 120%;
+  }
   .conteiner_collections{
-    height: 15rem;
+    height: 80%;
   }
   .conteiner_collections> div> h3{
-    top:9rem; 
+    top:9rem;
     font-size: 1rem;
     line-height: 110%;
   }
@@ -1294,57 +1364,146 @@ height: 1.75rem;
     line-height: 110% ;
     border-radius: 1rem;
   }
-  .collections>h1{
-    width: 50%;
-    font-size: 1.7rem;
-    line-height: 120%;
-    margin:0rem 45% 1rem 45%;
+
+  /*   
+  
+  .collections>button{
+    margin:2% 45%;
+    width: 12.5rem;
+    height: 3.5rem;
+    text-align: center;
+    /* padding: 0.75rem 3.6875rem; 
+    border-radius: 1.625rem;
+    border: 1px solid #0D554A;
+    background: rgba(0, 0, 0, 0.00);
+    color: #0D554A;
+    font-family: Manrope;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155.556%;
   }
+  
+  .conteiner_collections{
+    width:100%;
+    height: 25rem;
+    background: #FFF;
+    /* background: red; 
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .collection{
+    width: 22%;
+    height: 22.5rem;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150% ;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    /* border: 1rem solid blue; 
+  
+  }
+  
+  .collection--1{
+    background: url(./assets/Colecciones/coleccion1.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+    margin: 2.5rem 3rem 2.5rem 5.25rem ;
+  }
+  .collection--2{
+    margin: 0rem 3rem 2.5rem 0rem ;
+    background: url(./assets/Colecciones/coleccion2.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+  }
+  
+  .collection--3{
+    margin: 2.5rem 5.25rem 2.5rem 0rem ;
+    background: url(./assets/Colecciones/coleccion3.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+  }
+  
+  .collection--4{
+    background: url(./assets/Colecciones/coleccion4.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+    margin: 2.5rem 3rem 2.5rem 5.25rem ;
+  }
+  .collection--5{
+    background: url(./assets/Colecciones/coleccion5.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+    margin: 0rem 3rem 2.5rem 0rem ;
+  }
+  
+  .collection--6{
+    background: url(./assets/Colecciones/coleccion6.png), lightgray 0px -90px / 100% 150% no-repeat;
+    background-size: cover;
+    margin: 2.5rem 5.25rem 2.5rem 0rem ;
+  }
+  .conteiner_collections> div> h3{
+    position: relative;
+    top:18rem;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-style: normal;  word-wrap:break-word;
+    font-weight: 400;
+    line-height: 150%;
+  } */
+
   .collection--1{
     margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
   }
   .collection--2{
     margin: 0rem 1.7rem 1.2rem 0rem ;
-  }  
+  }
   .collection--3{
     margin: 1.2rem 3.5rem 1.2rem 0rem ;
-  }  
+  }
   .collection--4{
     margin: 1.2rem 1.7rem 1.2rem 3.5rem ;
   }
   .collection--5{
     margin: 0rem 1.7rem 1.2rem 0rem ;
-  }  
+  }
   .collection--6{
     margin: 1.2rem 3.5rem 1.2rem 0rem ;
   }
+
+
+
   /* ---------------------------------------- */
   .our-story-title {
     font-size: 1.125rem;
   }
 
   .play-button {
-    width: 1.875rem; 
+    width: 1.875rem;
     height: 1.875rem;
   }
   /* ------------------------------------------------------ */
   .article-footer--title {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
   .footer-figure--figcaption,
   .figcaption--h1,
   .figcaption--p {
-    font-size: 0.625rem; 
+    font-size: 0.625rem;
   }
 
   .footer--caption---button button {
-    padding: 0.3125rem; 
+    padding: 0.3125rem;
   }
-  
+
   /* .footer-title--suscribe {
     height: 30px;
   } */
-  
+
   .footer-title--suscribe {
     font-family: Cormorant Garamond;
     margin-right: 100%
