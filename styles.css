@@ -55,6 +55,16 @@
   margin: 0rem 2.33rem;
 }
 
+.menu-icon img{
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 0.125rem;
+}
+.menu-icon, #check{
+  display: none;
+}
+
+
 .nav-link:after {
   content: "";
   position: absolute;
@@ -1508,5 +1518,120 @@ height: 1.75rem;
     font-family: Cormorant Garamond;
     margin-right: 100%
   }
+}
+
+@media only screen and (max-width:520px
+         ){
+  .checkbtn{
+      display: block;
+  }
+  .menu-icon{
+      position: absolute;
+      display: block;
+      position: fixed;
+      top: 1.875rem;
+      margin-left: -12.5rem;
+      cursor: pointer;
+      align-items: center;
+      height: auto;
+      filter: invert(99%) sepia(3%) saturate(2%) hue-rotate(96deg) brightness(106%)
+      contrast(97%);
+      z-index: 1000; /* Asegura que esté sobre otros elementos */
+     }
+
+     .navbar{
+      z-index: 1000; /* Asegúrate de que se muestre por encima de otros elementos */
+     }
+
+ .logo{
+  font-size: 1.5em;
+  font-family: Cormorant Garamond;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2.875rem, auto;
+  letter-spacing: 0em;
+  text-align: left;
+ }
+  .icon-container {
+    display: flex;
+    align-items: center; /* Centra los íconos verticalmente */
+    justify-content:right; /* Espacia los íconos uniformemente */
+    color: white;
+    gap: 0rem; /* Espacio entre los íconos */
+  }
+
+  /* .user-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    display: flex;
+    margin-right:200px;
+
+  } */
+
+
+  .icon {
+    width: 1.25rem;
+    height: auto; /* Mantiene la proporción de aspecto del ícono */
+    filter: invert(99%) sepia(3%) saturate(2%) hue-rotate(96deg) brightness(106%)
+      contrast(97%); /* convierte los iconos negros en blanco */
+    padding: 1.25rem; /* Espaciado alrededor de los íconos */
+    margin: 0.625rem; /* Ajusta la separación entre íconos */
+    margin-right: -0.313rem;
+  }
+  
+  .navbar ul{
+      display: block;
+      position: fixed;
+      top: 4.375rem;
+      left:-100%;
+      background: #093931;
+      width: 100%;
+      height: 100vh;
+      right: 0;
+  }
+  .navbar ul .nav-link{
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+  }
+  .navbar ul .nav-link:last-child{
+      background: none;
+      padding: 1rem;
+  }
+  #check:checked ~ ul{
+      left: 0;
+      transition: all .25s;
+  }
+}
+
+@media only screen and (max-width:320px
+         ){
+  .checkbtn{
+      display: block;
+  }
+
+  .logo{
+    display: block;
+  } 
+
+  .menu-icon{
+    display: block;
+    position: fixed;
+    top: 0.625rem;
+    margin-left: -20.625rem;
+    cursor: pointer;
+    align-items: center;
+    height: auto;
+    filter: invert(99%) sepia(3%) saturate(2%) hue-rotate(96deg) brightness(106%)
+    contrast(97%);
+   }
+ 
+
+ .header___mobiLenavbar{
+    display: block;
+}
+
 }
 
